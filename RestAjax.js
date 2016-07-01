@@ -1,5 +1,11 @@
-var RestAjax = function() {
+/**
+ * @class RestAjax: A Ajax class for REST calls in valina javscript
+ * @description RestAjax is a simple HTTP library for in Javascript used to make restful ajax calls.
+ * @version 0.0.1
+ * @author Sahil Bhattacharya <me@imsahil.com> 
+ */
 
+var RestAjax = function() {
 
 	var xhttp;
 	if (window.XMLHttpRequest) {
